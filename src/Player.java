@@ -7,7 +7,7 @@ public class Player {
      * constructor for Player
      */
     public Player(){
-        this.currentLocation = 0; // current location (cell) that the player is in
+        this.currentLocation = 0; // current location (cell) that the player is in; initially,they are in cell 0
         this.maze = new Maze(); // the maze that the player is in
     }
 
@@ -73,7 +73,10 @@ public class Player {
                 System.out.println("You hit a Wall.");
             }
         }
+
+        // print out the current location every time the player moves
         System.out.println("Current location: "+ this.currentLocation);
+        // if they enter a heart room or diamond room, let them know
         maze.listOfCells.get(this.currentLocation).specifyRoom();
     }
 
