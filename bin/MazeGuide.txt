@@ -1,0 +1,20 @@
+------------------
+    Maze Guide
+------------------
+     _ _ _ _ _ _ 
+1 |x            |
+2 |             |
+3 |             |
+4 |             
+5 |             |
+6 |             |
+7 |_ _ _ _ _ _ _
+   1 2 3 4 5 6 7
+
+The maze consists of 49 cells arranged in a 7 x 7 grid, as shown above. Each cell is numbered in order: row 1 contains cells 0 to 6, row 2 contains cells 7 to 13, and this pattern continues up to row 7, which contains cells 42 to 48.
+You begin in cell 1. To move through the maze, use the commands go up, go down, go left, and go right. If you attempt to move into a wall, the system will let you know.
+As you explore, it is helpful to sketch your own map so you can keep track of where you’ve been and avoid getting lost.
+Most cells are simply pathways, but some cells contain puzzle rooms. These special rooms include clues, evidence, or riddles. When you reach one, you will see a door indicating that a puzzle is inside. You can choose to open the door and enter, or continue exploring and return later.
+There are two exits hidden in the maze: the Hearts exit and the Diamonds exit, and you have to answer a question related to the secret chambers to get out through the exit.
+
+Now, which direction do you want to go?
